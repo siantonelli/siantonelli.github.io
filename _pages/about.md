@@ -2,23 +2,20 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <a target="_blank" href="https://www.studiareinformatica.uniroma1.it/master-course-computer-science" title="Master course in Computer Science">Computer Science Department</a> &bull; <a target="_blank" href="https://www.uniroma1.it/en/pagina-strutturale/home" title="Sapienza University of Rome">Sapienza University of Rome</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
+  image: simone_antonelli.jpeg
+  address: '[first] [dot] [last] 97 [at] gmail [dot] com'
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am an MSc student in Computer Science at the Sapienza University of Rome.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am fascinated by `human cognition` and how neural networks try to emulate it. Currently, my research concerns `geometric deep learning` and how to employ `explainability` in this area. 
+During my studies, I also did research in the `computer vision` field. In particular, I worked on `object detection` in a `few-shot scenario`.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I previously received a BSc in Computer Science still from Sapienza University, working on the analysis and development of a tool for translating biological models.

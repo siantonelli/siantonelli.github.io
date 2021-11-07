@@ -16,12 +16,27 @@
 
 <!-- Open Graph -->
 {% if site.serve_og_meta %}
-<meta property="og:site_name" content="{{ site.description }}" />
+<meta property="og:site_name" content="{{ site.first_name }} {{ site.last_name }}" />
 <meta property="og:type" content="object" />
-<meta property="og:title" content="{{ site.name }}" />
+<meta property="og:title" content="{{ site.first_name }} {{ site.last_name }} - Portfolio" />
 <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}" />
-<meta property="og:description" content="{{ page.title }}" />
-<meta property="og:image" content="{%- if page.og_image -%}{{ page.og_image }}{%- else -%}{{ site.og_image }}{%- endif -%}" />
+<meta property="og:description" content="{{ site.description}}" />
+<meta property="og:image" content="{{ site.og_image | prepend: site.baseurl | prepend: site.url }}" />
+{% endif %}
+
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@{{ site.twitter_username }}">
+<meta name="twitter:creator" content="@{{ site.twitter_username }}">
+<meta name="twitter:title"   content="{{ site.first_name }} {{ site.last_name }} - Portfolio">
+
+<meta name="twitter:description" content="{{ site.description }}">
+
+{% if page.image %}
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="{{ site.og_image | prepend: site.baseurl | prepend: site.url }}">
+{% else %}
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="{{ site.og_image | prepend: site.baseurl | prepend: site.url }}">
 {% endif %}
 
 <!-- Bootstrap & MDB -->
@@ -43,9 +58,15 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}">
 
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/svg+xml" href="{{ site.icon | prepend: site.baseurl | prepend: site.url }}">
+<link rel="apple-touch-icon" type="image/svg+xml" href="{{ '/assets/img/apple-touch-icon.svg' | prepend: site.baseurl | prepend: site.url }}">
+
 {% if site.enable_darkmode %}
 <!-- Dark Mode -->
 <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
 {% endif %}
 
+<!-- Google site verification -->
+<meta name="google-site-verification" content="hDA3AMf31FYDR4O0cr5UGJ7SXCLOmoDXKnQUt4x-X_g" />

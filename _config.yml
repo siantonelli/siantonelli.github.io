@@ -4,17 +4,16 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Simone
-middle_name:
+# middle_name: R.
 last_name: Antonelli
-email: you@example.com
+email: simone dot antonelli97 at gmail dot com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  I am an MSc student in Computer Science at the Sapienza University of Rome interested in explaining what deep neural networks learn.
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  Powered by <a target="_blank" href="http://jekyllrb.com/" title="A a static site generator">Jekyll</a> with <a target="_blank" href="https://github.com/alshedivat/al-folio" title="A simple, clean, and responsive Jekyll theme for academics">al-folio</a> theme.
+  Hosted by <a target="_blank" href="https://pages.github.com/" title="Websites for you and your projects">GitHub Pages</a>.
 
-icon: 🔥 # the emoji used as the favicon
+icon: /assets/img/favicon.svg # the emoji used as the favicon
 url: https://santonelli7.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
@@ -31,7 +30,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -42,8 +41,8 @@ max_width: 800px
 # Open Graph
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+og_image: /assets/img/favicon.svg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -78,16 +77,16 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: # your blog must have a name for it to show up in the nav bar
+blog_description: # a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
-  enabled: true
+  enabled: false
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # -----------------------------------------------------------------------------
@@ -127,6 +126,13 @@ kramdown:
 # Includes & excludes
 include: ['_pages']
 exclude:
+  - _pages/dropdown
+  - _pages/publications
+  - _pages/teaching
+  - _news/sample_announcement.md 
+  - blog # remove to add blog page
+  - _posts # remove to add posts to blog page
+  - _pages/publications # remove to add the publications page
   - bin
   - Gemfile
   - Gemfile.lock
@@ -150,6 +156,7 @@ plugins:
   - jekyll-target-blank
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-figure
 
 # Sitemap settings
 defaults:
@@ -182,8 +189,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: 
+  first_name: 
 
   style: apa
   locale: en
@@ -241,10 +248,10 @@ enable_mansory:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
-enable_darkmode:            true   # enables switching between light/dark modes
+enable_darkmode:            false   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
+enable_project_categories:  false   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 
