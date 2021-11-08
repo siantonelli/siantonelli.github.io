@@ -61,24 +61,24 @@
   media="none" id="highlight_theme_light" />
 
 <!-- Styles -->
-{% if site.icon.size < 3 %} <link rel="shortcut icon"
+{% if site.icon != empty %}
+<link rel="icon"
   href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
-  {% elsif site.icon != blank %}
-  <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url}}" />
-  {% endif %}
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+{% endif %}
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="canonical"
+  href="{{ page.url | replace:'index.html','' | relative_url | prepend: site.baseurl | prepend: site.url}}">
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/svg+xml" href="{{ site.icon | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="apple-touch-icon" type="image/svg+xml"
-    href="{{ '/assets/img/apple-touch-icon.svg' | prepend: site.baseurl | prepend: site.url }}">
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/svg+xml" href="{{ site.icon | prepend: site.baseurl | prepend: site.url }}">
+<link rel="apple-touch-icon" type="image/svg+xml"
+  href="{{ '/assets/img/apple-touch-icon.svg' | prepend: site.baseurl | prepend: site.url }}">
 
-  {% if site.enable_darkmode %}
-  <!-- Dark Mode -->
-  <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
-  {% endif %}
+{% if site.enable_darkmode %}
+<!-- Dark Mode -->
+<script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
+{% endif %}
 
-  <!-- Google site verification -->
-  <meta name="google-site-verification" content="hDA3AMf31FYDR4O0cr5UGJ7SXCLOmoDXKnQUt4x-X_g" />
+<!-- Google site verification -->
+<meta name="google-site-verification" content="hDA3AMf31FYDR4O0cr5UGJ7SXCLOmoDXKnQUt4x-X_g" />
