@@ -13,15 +13,14 @@ layout: default
   </header>
 
   <article>
-    {% if page.profile -%}
-    <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-      {%- if page.profile.image %}
-      {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
-
-      {% if page.profile.image_cicular %}
-      {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
-      {% else %}
-      {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+    {% if page.profile %}
+    <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      {% if page.profile.image %}
+      {% responsive_image_block %}
+      path: {{ page.profile.image | prepend: 'assets/img/' }}
+      alt: "profile picture"
+      class: "img-fluid z-depth-1 rounded"
+      {% endresponsive_image_block %}
       {% endif %}
 
       {% include figure.html
