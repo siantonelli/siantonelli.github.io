@@ -4,6 +4,21 @@
 
 // Typography
 
+.cv h3 {
+  color: var(--global-theme-color);
+}
+
+.cv .badge {
+  background: var(--global-theme-color);
+}
+
+.cv td {
+  margin-left: 1.5em;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+}
+
 p,
 h1,
 h2,

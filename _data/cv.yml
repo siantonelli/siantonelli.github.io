@@ -12,7 +12,7 @@
   type: table
   contents:
     - title:  MSc in Computer Science @ Sapienza University of Rome
-      year: 2019-2021
+      year: 2019-now
       description:
         - '<u>GPA: </u> 29.2/30'
         - title: 'Major topics'
@@ -41,7 +41,7 @@
         - '<b>Title:</b> Model-Level Explanation of PointNet Framework via Input Optimization'
         - Design and implementation of a novel 3D deep generative framework to reconstruct 3D point clouds via Adversarial Autoencoder
         - Explanation of a deep neural model dealing with 3D data(PointNet) through a post-hoc technique to visualize what the artificial neural network has learned
-    - title: 'Bachelor thesis development - MCLab Research Group@Sapienza University of Rome'
+    - title: 'Master thesis development - MCLab Research Group@Sapienza University of Rome'
       year: 2019
       description:
         - '<b>Title:</b> ModelsTranslator, a translating tool for biological models'
