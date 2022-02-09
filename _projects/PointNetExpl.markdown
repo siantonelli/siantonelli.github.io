@@ -7,6 +7,11 @@ img: assets/img/X-pointnet.png
 importance: 1
 source: https://github.com/santonelli7/pointnet-explainability
 ---
+<style>
+img{
+    width:90%;
+}
+</style>
 
 # Introduction
 
