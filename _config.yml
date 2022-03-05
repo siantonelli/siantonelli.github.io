@@ -160,12 +160,10 @@ kramdown:
 include: ['_pages']
 exclude:
   - _pages/dropdown
-  - _pages/publications
   - _pages/teaching
   - _news/sample_announcement.md 
   - blog # remove to add blog page
   - _posts # remove to add posts to blog page
-  - _pages/publications # remove to add the publications page
   - bin
   - Gemfile
   - Gemfile.lock

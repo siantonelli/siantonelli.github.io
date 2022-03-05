@@ -2,6 +2,7 @@
 layout: page
 permalink: /CV/
 title: Resume
+description: Updated version of my Curriculum Vitae.
 nav: CV
 ---
 
