@@ -188,7 +188,7 @@ jekyll-archives:
 scholar:
 
   last_name: Antonelli
-  first_name: ["Simone", "S.", "S.<b>*</b>"]
+  first_name: ["Simone", "S."]
 
   style: apa
   locale: en
