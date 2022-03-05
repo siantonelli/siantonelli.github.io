@@ -39,51 +39,76 @@
       {% if forloop.length == 1 %}
       {% if author_is_self %}
       <em>{{author.first}} {{author.last}}</em>
-      {% if entry.contribution contains author.last %}
-      <b>*</b>
-      {% endif %}
       {% else %}
       {{author.first}} {{author.last}}
-      {% if entry.contribution contains author.last %}
-      <b>*</b>
-      {% endif %}
       {% endif %}
       {% else %}
+      {% assign second_last = forloop.length | minus: 2 %}
       {% unless forloop.last %}
       {% if author_is_self %}
-      <em>{{author.first}} {{author.last}}</em>
       {% if entry.contribution contains author.last %}
-      <b>*</b>
-      {% endif %},
+      {% if forloop.index0 == second_last %}
+      <em>{{author.first}} {{author.last}}</em><b>*</b>
+      {% else %}
+      <em>{{author.first}} {{author.last}}</em><b>*</b>,
+      {% endif %}
+      {% else %}
+      {% if forloop.index0 == second_last %}
+      <em>{{author.first}} {{author.last}}</em>
+      {% else %}
+      <em>{{author.first}} {{author.last}}</em>,
+      {% endif %}
+      {% endif %}
       {% else %}
       {% if coauthor_url %}
-      <a target="_blank" href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
       {% if entry.contribution contains author.last %}
-      <b>*</b>
-      {% endif %},
+      {% if forloop.index0 == second_last %}
+      <a target="_blank" href="{{coauthor_url}}">{{author.first}} {{author.last}}</a><b>*</b>
       {% else %}
-      {{author.first}} {{author.last}}
+      <a target="_blank" href="{{coauthor_url}}">{{author.first}} {{author.last}}</a><b>*</b>,
+      {% endif %}
+      {% else %}
+      {% if forloop.index0 == second_last %}
+      <a target="_blank" href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+      {% else %}
+      <a target="_blank" href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,
+      {% endif %}
+      {% endif %}
+      {% else %}
       {% if entry.contribution contains author.last %}
-      <b>*</b>
-      {% endif %},
+      {% if forloop.index0 == second_last %}
+      {{author.first}} {{author.last}}<b>*</b>
+      {% else %}
+      {{author.first}} {{author.last}}<b>*</b>,
+      {% endif %}
+      {% else %}
+      {% if forloop.index0 == second_last %}
+      {{author.first}} {{author.last}}
+      {% else %}
+      {{author.first}} {{author.last}},
+      {% endif %}
+      {% endif %}
       {% endif %}
       {% endif %}
       {% else %}
       {% if author_is_self %}
-      and <em>{{author.first}} {{author.last}}</em>
       {% if entry.contribution contains author.last %}
-      <b>*</b>
+      and <em>{{author.first}} {{author.last}}</em><b>*</b>
+      {% else %}
+      and <em>{{author.first}} {{author.last}}</em>
       {% endif %}
       {% else %}
       {% if coauthor_url %}
-      and <a target="_blank" href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
       {% if entry.contribution contains author.last %}
-      <b>*</b>
+      and <a target="_blank" href="{{coauthor_url}}">{{author.first}} {{author.last}}</a><b>*</b>
+      {% else %}
+      and <a target="_blank" href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
       {% endif %}
       {% else %}
-      and {{author.first}} {{author.last}}
       {% if entry.contribution contains author.last %}
-      <b>*</b>
+      and {{author.first}} {{author.last}}<b>*</b>
+      {% else %}
+      and {{author.first}} {{author.last}}
       {% endif %}
       {% endif %}
       {% endif %}
