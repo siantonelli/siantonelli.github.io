@@ -52,7 +52,7 @@ github_username: santonelli7 # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: santonelli7 # your Twitter handle
 linkedin_username: santonelli7 # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: V1ECJ8YAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -127,12 +127,10 @@ kramdown:
 include: ['_pages']
 exclude:
   - _pages/dropdown
-  - _pages/publications
   - _pages/teaching
   - _news/sample_announcement.md 
   - blog # remove to add blog page
   - _posts # remove to add posts to blog page
-  - _pages/publications # remove to add the publications page
   - bin
   - Gemfile
   - Gemfile.lock
@@ -189,8 +187,8 @@ jekyll-archives:
 
 scholar:
 
-  last_name: 
-  first_name: 
+  last_name: Antonelli
+  first_name: ["Simone", "S.", "S.<b>*</b>"]
 
   style: apa
   locale: en
