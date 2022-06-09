@@ -6,17 +6,18 @@
   - firstname: ["Fabio", "F."]
     url: https://scholar.google.com/citations?user=2gSuGBEAAAAJ
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Rodolà":
+  - firstname: ["Emanuele", "E."]
+    url: https://scholar.google.com/citations?user=-EH4wBYAAAAJ
+  
+"Marin":
+  - firstname: ["Riccardo", "R."]
+    url: https://scholar.google.it/citations?user=qhw2qgQAAAAJ
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Moschella":
+  - firstname: ["Luca", "L."]
+    url: https://scholar.google.it/citations?user=4byA-nefJJMC
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
-
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Maiorca":
+  - firstname: ["Valentino", "V."]
+    url: https://scholar.google.it/citations?user=2VUUfFEAAAAJ&hl
