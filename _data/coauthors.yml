@@ -5,3 +5,19 @@
 "Galasso":
   - firstname: ["Fabio", "F."]
     url: https://scholar.google.com/citations?user=2gSuGBEAAAAJ
+
+"Rodolà":
+  - firstname: ["Emanuele", "E."]
+    url: https://scholar.google.com/citations?user=-EH4wBYAAAAJ
+  
+"Marin":
+  - firstname: ["Riccardo", "R."]
+    url: https://scholar.google.it/citations?user=qhw2qgQAAAAJ
+
+"Moschella":
+  - firstname: ["Luca", "L."]
+    url: https://scholar.google.it/citations?user=4byA-nefJJMC
+
+"Maiorca":
+  - firstname: ["Valentino", "V."]
+    url: https://scholar.google.it/citations?user=2VUUfFEAAAAJ&hl
