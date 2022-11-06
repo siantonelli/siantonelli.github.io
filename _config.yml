@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Simone
 middle_name:
 last_name: Antonelli
-email: [first].[last]@cispa.de
+email: "[first].[last]@cispa.de"
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   I am a 1st-year Ph.D. student in Computer Science at CISPA Helmholtz Center interested in trustworthy machine learning with a focus on graph neural networks.
 footer_text: >
@@ -15,12 +15,12 @@ footer_text: >
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website, simone, antonelli, simone antonelli, simone antonelli sapienza, simone antonelli uniroma1, simone antonelli cispa, cispa helmholtz, sapienza university of rome, computer science, artificial intelligence, ai, machine learning, deep learning, graph neural network, graph representation learning, few shot learning, graphs, networks # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: favicon.svg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.svg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://santonelli7.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -266,9 +266,9 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
-enable_google_verification: false  # enables google site verification
+enable_google_verification: true  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
