@@ -20,7 +20,7 @@ d-article d-byline a {
 }
 
 d-article {
-  border-top-color: #e8e8e8 !important;
+  border-top-color: var(--global-divider-color) !important;
 
   a,
   p,
@@ -29,7 +29,9 @@ d-article {
   h3,
   h4,
   h5,
-  h6 {
+  h6,
+  li,
+  table {
     color: var(--global-text-color) !important;
   }
 
