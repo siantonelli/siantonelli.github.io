@@ -5,35 +5,26 @@
       value: Simone Antonelli
     - name: Location
       value: Rome, Italy
-    - name: Email
-      value: '[first] dot [last] 97 at gmail dot com'
+    - name: Languages
+      value: Italian, English
 
 - title: Education
-  type: table
+  type: time_table
   contents:
     - title:  MSc in Computer Science @ Sapienza University of Rome
-      year: 2019-2021
+      year: Dec 2019 - Jan 2022
       description:
         - '<u>GPA: </u> 29.2/30'
-        - title: 'Major topics'
-          contents:
-            - Advanced Algorithms
-            - Machine Learning
-            - Deep Learning
-            - Computer Vision
-            - Natural Language Processing
+        - Graduated with distinction
+        - Successfully completed the excellence program for this degree programme
     - title: BSc in Computer Science @ Sapienza University of Rome
-      year: 2016-2019
+      year: Sep 2016 - Dec 2019
       description:
         - '<u>GPA: </u> 27.2/30'
-        - title: 'Major topics'
-          contents:
-            - Algorithms 
-            - Software Engineering
-            - Artificial Intelligence
+        - Graduated with distinction
 
 - title: Research Experience
-  type: table
+  type: time_table
   contents:
     - title: 'Master thesis development - GLADIA Research Group@Sapienza University of Rome'
       year: 2021
@@ -48,46 +39,19 @@
         - Analysis, design and development of a translating tool for biological models in several modelling languages to encourage models re-use in the community
         - Test analysis and simulation of the translated models
 
-- title: Projects
-  type: table
-  contents:
-    - title: Few-Shot Object Detection via an Instance-aware branch
-      year: 2021
-      description:
-        - Design and implementation of a novel approach to detect objects from few examples
-    - title: Towards Conditionality in Probabilistic Diffusion Models
-      year: 2021
-      description: 
-        - Refine probabilistic diffusion models for image generation, including class conditionality by adapting GANs techniques
-    - title: Learning of Independent Causal Mechanisms on 3D Shapes
-      year: 2020
-      description: 
-        - Training of a framework to learn several models each focused in inverting a transformation on 3D point clouds by leveraging causality
-        - Build 3D point cloud MNIST dataset
-
-- title: Acknowledgments
-  type: table
-  contents:
-    - title: Honours Programme in Computer Science - Sapienza University of Rome
-      year: 2021
-      items: 
-        - Extracurricular activity for worthy students giving those the opportunity to approach the research
-        - I focused my honours programme in discovering causal mechanisms on non- Euclidean data
-        - Supervised by professor <a href="https://sites.google.com/site/erodola/" target="_blank">Emanuele Rodolà</a>
-
-- title: Summer Schools
-  type: table
+- title: Attended
+  type: time_table
   contents:
     - title: Pre-Doctoral Research School @ Cornell University, Maryland University, Max Planck Institute
       year: Aug, 2021
-      description: Admitted as an outstanding student to (virtually) attend a week of lectures about cutting-edge research topics in Computer Science
-    - title: Machine Learning Summer School @ Max-Planck-Gesellschaft
+      description: Admitted upon selection
+    - title: Machine Learning Summer School 2021 Tapei @ Max-Planck-Gesellschaft
       year: Aug, 2021
-      description: Selected to (virtually) participate in the General Program of the MLSS where leading experts in Machine Learning discuss core topics of the field.
+      description: Admitted upon selection
     
 - title: Skills
   type: list
   contents:
-    - '<u>Programming</u>: <b>Python</b>, C++, Java, LaTeX'
-    - '<u>Technologies</u>: PyTorch, common Python ML libraries'
-    - '<u>Environments</u>: Visual Studio Code, PyCharm, Google Colab'
+    - '<u>Programming</u>: <b>Python</b> (NumPy, Scikit‑learn, Matplotlib, Plotly etc.), C++, Java'
+    - '<u>Framework</u>: PyTorch, Pytorch Lightning, WandB, Git'
+    - '<u>Miscellaneous</u>: MacOS, Linux, Windows, Shell (Bash/Zsh), LaTeX(Overleaf/R Markdown)'

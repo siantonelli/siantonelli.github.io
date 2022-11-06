@@ -4,23 +4,22 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Simone
-# middle_name: R.
+middle_name:
 last_name: Antonelli
-# email: 
+email: [first].[last]@cispa.de
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  I am an MSc student in Computer Science at the Sapienza University of Rome interested in explaining what deep neural networks learn.
+  I am a 1st-year Ph.D. student in Computer Science at CISPA Helmholtz Center interested in trustworthy machine learning with a focus on graph neural networks.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: jekyll, jekyll-theme, academic-website, portfolio-website, simone, antonelli, simone antonelli, simone antonelli sapienza, simone antonelli uniroma1, simone antonelli cispa, cispa helmholtz, sapienza university of rome, computer science, artificial intelligence, ai, machine learning, deep learning, graph neural network, graph representation learning, few shot learning, graphs, networks # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: /assets/img/favicon.svg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.svg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://santonelli7.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -41,7 +40,7 @@ repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-s
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -61,7 +60,7 @@ max_width: 800px
 # Display links to the page with a preview object on social media.
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: /assets/img/favicon.svg # The site-wide (default for all links) Open Graph preview image
+og_image: favicon.svg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -93,34 +92,11 @@ contact_note: >
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
+google_analytics: G-RRRYW95ZBN # your google-analytics ID (format: UA-XXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
-
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-
-blog_name: # your blog must have a name for it to show up in the nav bar
-blog_description: # a simple whitespace theme for academics
-permalink: /blog/:year/:title/
-
-# Pagination
-pagination:
-  enabled: false
-
-# Comments
-disqus_shortname: # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-
-# External sources.
-# If you have blog posts published on medium.com or other exteranl sources,
-# you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -136,8 +112,8 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 5 # leave blank to include all the news in the `_news` folder
+news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
+news_limit: # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -252,7 +228,7 @@ scholar:
   query: "@*"
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
+filtered_bibtex_keywords: [abbr, abstract, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
 
 # Maximum number of authors to be shown, other authors will be visible on hover, leave blank to show all authors
 max_author_limit: 3

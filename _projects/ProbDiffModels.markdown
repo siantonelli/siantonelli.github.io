@@ -6,7 +6,7 @@ img: assets/img/diff-model.png
 tags: [Deep Learning, Generative models, Computer Vision, Diffusion Probabilistic Models]
 notebook: https://colab.research.google.com/drive/11kph8U__O9_RL1vAmrvS5ohOo_YGpspw
 # category: work
-importance: 3
+importance: 4
 ---
 
 # Introduction

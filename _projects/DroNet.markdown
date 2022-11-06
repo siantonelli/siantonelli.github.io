@@ -6,7 +6,7 @@ img: assets/img/dronet.png
 tags: [Reinforcement Learning, Deep Learning, Drones simulation, Routing protocol, MAC protocol]
 source: https://github.com/daniele-baieri/autonet-hw
 # category: work
-importance: 4
+importance: 5
 ---
 
 # Reinforcement Learning-based MAC protocol

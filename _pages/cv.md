@@ -1,9 +1,11 @@
 ---
-layout: page
-permalink: /CV/
-title: Resume
-description: Updated version of my Curriculum Vitae.
-nav: CV
+layout: cv
+permalink: /cv/
+title: CV
+name_page: Curriculum Vitae
+nav: true
+nav_order: 4
+cv_pdf: cv.pdf
 ---
 
 <!-- Place PDF download link at the top right. -->
