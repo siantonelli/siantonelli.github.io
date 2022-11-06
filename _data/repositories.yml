@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - santonelli7
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - crisostomi/metric-few-shot-graph
+  - santonelli7/pointnet-explainability
+  - santonelli7/causal-mechanisms-on-pointclouds 
+  - santonelli7/nlp-homeworks
+  - santonelli7/ModelsTranslator

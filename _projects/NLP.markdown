@@ -6,7 +6,7 @@ img: assets/img/nlp.jpeg
 tags: [Natural Language Processing, Named Entity Recognition, Semantic Role Labeling]
 source: https://github.com/santonelli7/nlp-homeworks
 # category: work
-importance: 5
+importance: 6
 ---
 
 # Named Entity Recognition

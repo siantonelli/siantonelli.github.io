@@ -4,7 +4,7 @@ title: Human-Friendly Interpretation of a 3D Point Clouds Classifier
 description: Implementation of Input Optimization technique to explain the predictions of PointNet classifier.
 img: assets/img/X-pointnet.png
 # category: work
-importance: 1
+importance: 2
 source: https://github.com/santonelli7/pointnet-explainability
 ---
 <style>
@@ -162,7 +162,7 @@ Instead, to evaluate the prior, we look at the reconstruction ability that the g
 To better support this statement, we also look at the latent space, where we can see that the classes are clustered in a meaningful way, namely latent codes representing the features of the same class are close together. Thus, we expect that by sampling a code near to the cluster of a class and then giving it as input to the Generator, we obtain a point cloud according to that class. The latent space represents also the space in which we restrict our search during the optimization process.
 
 {% figure caption:"Latent space of the 3D Adversarial AutoEncoder." %}
-![Latent space](/assets/img/latent_space.pdf "Latent space")
+![Latent space](/assets/img/latent_space.jpg "Latent space")
 {% endfigure %}
 
 ### Input Optimization results
