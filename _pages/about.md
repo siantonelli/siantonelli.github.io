@@ -16,6 +16,6 @@ social: false  # includes social icons at the bottom of the page
 
 I'm a 1st-year Ph.D. student at the [CISPA Helmholtz Center for Information Security](https://cispa.de/en), advised by [Aleksandar Bojchevski](https://abojchevski.github.io/). 
 
-My research focuses on trustworthy machine learning with an emphasis on interpretable graph neural networks and deep generative models.
+My research focuses on trustworthy machine learning with an emphasis on adversarial robustness and explainability for graph neural networks and deep generative models.
 
-Previously, I received a B.Sc. and a M.Sc. in Computer Science, both from the Sapienza University of Rome, working with the [GLADIA research group](https://gladia.di.uniroma1.it/members), led by [Emanuele Rodolà](https://sites.google.com/site/erodola/), on the interpretability of deep models dealing with geometric data as well as graph representation learning in a few-shot scenario. Additionally, I have experience in computer vision research.
+Previously, I received a B.Sc. and a M.Sc. in Computer Science, both from the Sapienza University of Rome, working with the [GLADIA research group](https://gladia.di.uniroma1.it/members) led by [Emanuele Rodolà](https://sites.google.com/site/erodola/), on the interpretability of deep models dealing with geometric data and graph representation learning in a few-shot scenario as well. Additionally, I have experience in the computer vision field.

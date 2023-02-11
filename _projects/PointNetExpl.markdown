@@ -5,7 +5,7 @@ description: Implementation of Input Optimization technique to explain the predi
 img: assets/img/X-pointnet.png
 # category: work
 importance: 2
-source: https://github.com/santonelli7/pointnet-explainability
+source: https://github.com/siantonelli/pointnet-explainability
 ---
 <style>
 img{

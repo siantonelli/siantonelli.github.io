@@ -5,7 +5,7 @@ description: Learning of independent mechanisms applied to point clouds in a cau
 img: assets/img/point-cloud.jpg
 # category: work
 importance: 3
-redirect: https://github.com/santonelli7/causal-mechanisms-on-pointclouds
+redirect: https://github.com/siantonelli/causal-mechanisms-on-pointclouds
 ---
 
 Check back soon... :eyes:

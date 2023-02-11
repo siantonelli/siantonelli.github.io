@@ -17,7 +17,7 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website, simone, ant
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: "favicon.svg" # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://santonelli7.github.io # the base hostname & protocol for your site
+url: https://siantonelli.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -66,10 +66,10 @@ og_image: favicon.svg # The site-wide (default for all links) Open Graph preview
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: santonelli7 # your GitHub user name
+github_username: siantonelli # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: santonelli7 # your Twitter handle
-linkedin_username: santonelli7 # your LinkedIn user name
+twitter_username: sntonelli # your Twitter handle
+linkedin_username: siantonelli # your LinkedIn user name
 scholar_userid: V1ECJ8YAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)

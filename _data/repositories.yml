@@ -1,9 +1,9 @@
 github_users:
-  - santonelli7
+  - siantonelli
 
 github_repos:
   - crisostomi/metric-few-shot-graph
-  - santonelli7/pointnet-explainability
-  - santonelli7/causal-mechanisms-on-pointclouds 
-  - santonelli7/nlp-homeworks
-  - santonelli7/ModelsTranslator
+  - siantonelli/pointnet-explainability
+  - siantonelli/causal-mechanisms-on-pointclouds 
+  - siantonelli/nlp-homeworks
+  - siantonelli/ModelsTranslator

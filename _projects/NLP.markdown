@@ -4,7 +4,7 @@ title: Natural Language Processing Homeworks
 description: Design and implementation of architectures to face both Named Entity Recognition (NER) task and Semantic Role Labeling (SRL) task.
 img: assets/img/nlp.jpeg
 tags: [Natural Language Processing, Named Entity Recognition, Semantic Role Labeling]
-source: https://github.com/santonelli7/nlp-homeworks
+source: https://github.com/siantonelli/nlp-homeworks
 # category: work
 importance: 6
 ---
