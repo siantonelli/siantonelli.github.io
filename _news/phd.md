@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I joined Aleksandar Bojchevski's group as a Ph.D. student.
+Moving to Saarbrücken to join Aleksandar Bojchevski's group as a Ph.D. student 🇩🇪

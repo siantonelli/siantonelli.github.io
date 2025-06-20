@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our [paper](/publications#pmlr-v198-crisostomi22a) on few-shot graph classification has been accepted at LoG Conference.
+Our [paper](/publications#pmlr-v198-crisostomi22a) on few-shot graph classification has been accepted at Learning on Graphs (LoG) conference.

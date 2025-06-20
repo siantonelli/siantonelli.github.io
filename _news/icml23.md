@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our [paper](/publications#pmlr-v202-h-zargarbashi23a) on conformal prediction for graphs has been accepted at ICML.
+Our [paper](/publications#pmlr-v202-h-zargarbashi23a) on conformal prediction for graphs has been accepted at ICML 🌺
