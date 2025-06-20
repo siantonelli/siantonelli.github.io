@@ -1,0 +1,11 @@
+github_users:
+  - siantonelli
+
+repo_description_lines_max: 2
+
+github_repos:
+  - crisostomi/metric-few-shot-graph
+  - siantonelli/pointnet-explainability
+  - siantonelli/causal-mechanisms-on-pointclouds 
+  - siantonelli/nlp-homeworks
+  - siantonelli/ModelsTranslator
