@@ -2,7 +2,10 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: <b>*</b> denotes equal contribution.
+description: >-
+  Thumbnail previews are hallucinated by AI (ChatGPT &#8482;).<br>
+  <b>*</b> denotes equal contribution.
+
 nav: true
 nav_order: 1
 ---

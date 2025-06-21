@@ -2,12 +2,12 @@
 # the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
 
-email: "[first].[last]@cispa.de"
+# email: "[first].[last]@cispa.de"
 github_username: siantonelli # your GitHub user name
-linkedin_username: siantonelli # your LinkedIn user name
-scholar_userid: V1ECJ8YAAAAJ # your Google Scholar ID
 x_username: sntonelli # your X handle
 bluesky_url: https://bsky.app/profile/siantonelli.bsky.social # your bluesky URL
+linkedin_username: siantonelli # your LinkedIn user name
+scholar_userid: V1ECJ8YAAAAJ # your Google Scholar ID
 # acm_id: # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
 # dblp_url: # your DBLP profile url

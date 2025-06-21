@@ -26,6 +26,12 @@ strong {
   color: var(--global-text-color);
 }
 
+// Ensure real bold weight for strong/b
+strong,
+b {
+  font-weight: 700;   // or "bold"
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -453,38 +459,19 @@ article h2 {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
 
     a {
       img {
-        width: 3.2rem;
-        height: 3.2rem;
-        margin-bottom: 1rem;
       }
 
       svg {
-        width: 3.5rem;
-        height: 4rem;
-        margin-bottom: 0.5rem;
-
-        image {
-          width: 3.5rem;
-          height: 3.5rem;
-        }
-      }
-
-      i::before {
-        color: var(--global-text-color);
-        transition-property: all 0.2s ease-in-out;
+        stroke: var(--global-text-color);
+        transition: stroke 0.2s ease-in-out;
       }
 
       &:hover {
         text-decoration: none;
         background-color: transparent;
-
-        i::before {
-          color: var(--global-hover-color);
-        }
       }
     }
   }
@@ -1502,4 +1489,32 @@ figure.cover {
   a.cover-link:hover {
     color: #23212d !important;
   }
+}
+
+// Make social SVG icons turn white on hover
+.social .contact-icons a:hover svg.icon {
+  stroke: #ffffff;
+  transition: stroke 0.3s ease;
+}
+
+.social .contact-icons a {
+  // same clickable area for all icons
+  width: $icon-size;
+  height: $icon-size;
+  display: inline-flex;      // centers icon in the square
+  align-items: center;
+  justify-content: center;
+}
+
+.social .contact-icons a svg,
+.social .contact-icons a img {
+  width: 100%;
+  height: 100%;
+}
+
+.social .contact-icons a i {
+  font-size: $icon-size;   // glyph scales to the same size
+  line-height: 1;          // avoid extra vertical space
+  width: 100%;
+  text-align: center;
 }

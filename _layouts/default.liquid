@@ -13,6 +13,9 @@
       <meta http-equiv="refresh" content="3; url={{ redirect }}">
     {% endif %}
     {% include head.liquid %}
+
+    {%- comment -%} Cookie consent {%- endcomment -%}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
   </head>
 
   <!-- Body -->
@@ -52,9 +55,5 @@
 
     <!-- JavaScripts -->
     {% include scripts.liquid %}
-
-    <script>
-      feather.replace()
-    </script>
   </body>
 </html>

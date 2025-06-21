@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Admitted to attend ELLIS Doctoral Symposium (EDS) 🇫🇷
+Admitted to attend [ELLIS Doctoral Symposium (EDS)](https://eds2024.github.io/) 🇫🇷

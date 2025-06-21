@@ -3,71 +3,13 @@
     "name": "Simone Antonelli",
     "label": "Ph.D. Student",
     "email": "[first].[last]@cispa.de",
-    "url": "https://siantonelli.github.io",
-    "summary": "My research focuses on developing reliable and trustworthy machine learning techniques, with an emphasis on (temporal) graph-based models, data valuation, robustness, differential privacy.",
+    "summary": "My interests lie in the inner workings of neural networks to make their predictions more trustworthy. One focus area of my research is <strong>data attribution</strong> and (<strong>graph-based</strong>) <strong>machine learning</strong>.",
     "location": {
       "city": "Cologne",
       "countryCode": "DE",
       "region": "North Rhine Westphalia"
-    },
-    "profiles": [
-      {
-        "network": "Google Scholar",
-        "username": "Simone Antonelli",
-        "url": "https://scholar.google.com/citations?user=V1ECJ8YAAAAJ"
-      },
-      {
-        "network": "GitHub",
-        "username": "siantonelli",
-        "url": "https://github.com/siantonelli"
-      },
-      {
-        "network": "LinkedIn",
-        "username": "siantonelli",
-        "url": "https://www.linkedin.com/in/siantonelli"
-      }
-    ]
+    }
   },
-
-  "work": [
-    {
-      "name": "Amboss Technologies",
-      "position": "Machine Learning Intern",
-      "location": "Remote",
-      "startDate": "2024-10-01",
-      "endDate": "2024-12-31",
-      "summary": "Developed strategies for predicting force closures on the Bitcoin Lightning Network using temporal graph neural networks.",
-      "highlights": ["Temporal Predictions on the Lightning Network"]
-    },
-    {
-      "name": "University of Cologne",
-      "position": "Teaching Assistant",
-      "location": "Cologne, Germany",
-      "startDate": "2023-04-01",
-      "endDate": "",
-      "summary": "Designed lecture material, homework and in-class sessions for Machine Learning and Advanced ML courses covering topics such as probabilistic inference, generative modelling, robustness and explainability.",
-      "highlights": ["Machine Learning SS 2025", "Advanced Machine Learning WS 2025", "Machine Learning SS 2024", "Advanced Machine Learning WS 2024", "Machine Learning SS 2023"]
-    }
-  ],
-
-  "volunteer": [
-    {
-      "organization": "Learning on Graphs Conference (LoG) 2024",
-      "position": "Reviewer",
-      "startDate": "2024-01-01",
-      "endDate": "2024-01-01",
-      "summary": "Reviewed submissions for the inaugural LoG 2024 conference.",
-      "highlights": []
-    },
-    {
-      "organization": "ATTRIB @ NeurIPS 2024 Workshop",
-      "position": "Reviewer",
-      "startDate": "2024-01-01",
-      "endDate": "2024-01-01",
-      "summary": "Served as a reviewer for the ATTRIB workshop on Attribution & Explanation in ML.",
-      "highlights": []
-    }
-  ],
 
   "education": [
     {
@@ -97,7 +39,58 @@
     }
   ],
 
-  "awards": [
+  "work": [
+    {
+      "name": "Amboss Technologies",
+      "position": "Machine Learning Intern",
+      "location": "Remote",
+      "startDate": "2024-10-01",
+      "endDate": "2024-12-31",
+      "summary": "Developed strategies for predicting force closures on the Bitcoin Lightning Network using a temporal graph network (TGN).",
+      "highlights": ["Temporal Predictions on the Lightning Network"]
+    },
+    {
+      "name": "University of Cologne",
+      "position": "Teaching Assistant",
+      "location": "Cologne, Germany",
+      "startDate": "2023-04-01",
+      "endDate": "",
+      "summary": "Designed lecture material, homework and in-class sessions for Machine Learning and Advanced ML courses covering topics such as probabilistic inference, generative modelling, robustness and explainability.",
+      "highlights": ["Machine Learning SS 2025", "Advanced Machine Learning WS 2025", "Machine Learning SS 2024", "Advanced Machine Learning WS 2024", "Machine Learning SS 2023",
+        "Guest lecture on Machine Learning libraries (~50 attendees) in Machine Learning SS2024 and SS2025"]
+    }
+  ],
+
+  "publications": [
+    {
+      "name": "Conformal Prediction Sets for Graph Neural Networks",
+      "publisher": "ICML 2023",
+      "releaseDate": "2023-07-01"
+    },
+    {
+      "name": "Few-Shot Object Detection: A Survey",
+      "publisher": "ACM Computing Surveys",
+      "releaseDate": "2022-11-01",
+      "url": "https://doi.org/10.1145/3519022"
+    },
+    {
+      "name": "Metric-Based Few-Shot Graph Classification",
+      "publisher": "LoG 2022",
+      "releaseDate": "2022-12-01"
+    },
+    {
+      "name": "Data Valuation for Graphs",
+      "publisher": "Preprint (under review)",
+      "releaseDate": "2024-05-01"
+    },
+    {
+      "name": "Foundation Models on a Budget: Approximating Blocks in Large Vision Models",
+      "publisher": "Preprint (under review)",
+      "releaseDate": "2025-05-01"
+    }
+  ],
+
+   "awards": [
     {
       "title": "Best Poster Award",
       "date": "2024-08-01",
@@ -111,7 +104,7 @@
     {
       "title": "Excellence Track",
       "date": "2020-10-01",
-      "awarder": "Computer-Science Department, Sapienza University of Rome"
+      "awarder": "Computer Science Department, Sapienza University of Rome"
     },
     {
       "title": "INPS University Scholarship",
@@ -121,29 +114,34 @@
     }
   ],
 
-  "certificates": [],
-
-  "publications": [
+  "volunteer": [
     {
-      "name": "Conformal Prediction Sets for Graph Neural Networks",
-      "publisher": "Proceedings of the 40th International Conference on Machine Learning (ICML)",
-      "releaseDate": "2023-07-01"
+      "organization": "Learning on Graphs Conference (LoG) 2024",
+      "position": "Reviewer",
+      "startDate": "2024-08-19",
+      "endDate": "2024-11-30",
+      "highlights": []
     },
     {
-      "name": "Few-Shot Object Detection: A Survey",
-      "publisher": "ACM Computing Surveys",
-      "releaseDate": "2022-11-01",
-      "url": "https://doi.org/10.1145/3519022"
+      "organization": "ATTRIB @ NeurIPS 2024 Workshop",
+      "position": "Reviewer",
+      "startDate": "2024-10-05",
+      "endDate": "2024-10-12",
+      "highlights": []
     },
     {
-      "name": "Metric-Based Few-Shot Graph Classification",
-      "publisher": "The First Learning on Graphs Conference (LoG)",
-      "releaseDate": "2022-12-01"
+      "organization": "NeurIPS 2025",
+      "position": "Reviewer",
+      "startDate": "2025-05-31",
+      // "endDate": "2025-01-01",
+      "highlights": []
     },
     {
-      "name": "Data Valuation for Graphs",
-      "publisher": "Preprint (under review)",
-      "releaseDate": "2024-05-01"
+      "organization": "The European Journal of Artificial Intelligence",
+      "position": "Reviewer",
+      "startDate": "2025-05-18",
+      "endDate": "2025-06-17",
+      "highlights": []
     }
   ],
 
@@ -154,7 +152,7 @@
     },
     {
       "name": "Libraries & Frameworks",
-      "keywords": ["NumPy", "Scikit-learn", "Matplotlib", "PyTorch", "PyTorch Geometric", "PyTorch Lightning", "Weights & Biases"]
+      "keywords": ["NumPy", "Scikit-learn", "Matplotlib", "PyTorch", "PyTorch Geometric (PyG)", "PyTorch Lightning", "WandB"]
     },
     {
       "name": "Tools & Version Control",
@@ -164,13 +162,5 @@
       "name": "Other Technologies",
       "keywords": ["Linux", "Shell (Bash/Zsh)", "Slurm", "LaTeX"]
     }
-  ],
-
-  "languages": [],
-
-  "interests": [],
-
-  "references": [],
-
-  "projects": []
+  ]
 }
