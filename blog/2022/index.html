@@ -9,56 +9,60 @@
   </script> <script defer src="/assets/js/google-analytics-setup.js"></script> <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script> <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script> <script>
     addBackToTop();
   </script> <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script> <script>
-// 1. Define a function to load Google Analytics (GA) when called
-function loadGAonConsent() {
-  // Create GA script tag
-  var ga = document.createElement('script');
-  ga.src = "https://www.googletagmanager.com/gtag/js?id=G-XCK458LS4R";
-  ga.async = true;
-  document.head.appendChild(ga);
-  // Initialize GA tracking after script is loaded
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){ dataLayer.push(arguments); }
-  gtag('js', new Date());
-  gtag('config', 'G-XCK458LS4R', { 'anonymize_ip': true });  // anonymize IP for GDPR
-}
+  // 1. Define a function to load Google Analytics (GA) when called
+  function loadGAonConsent() {
+    // Create GA script tag
+    var ga = document.createElement('script');
+    ga.src = 'https://www.googletagmanager.com/gtag/js?id=G-XCK458LS4R';
+    ga.async = true;
+    document.head.appendChild(ga);
+    // Initialize GA tracking after script is loaded
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-XCK458LS4R', { anonymize_ip: true }); // anonymize IP for GDPR
+  }
 
-// 2. Initialize the Cookie Consent banner in opt-in mode
-window.cookieconsent.initialise({
-  palette: {
-    popup:  {                      // banner
-      background: "#A7BED3",
-      text:       "#320F0C"
+  // 2. Initialize the Cookie Consent banner in opt-in mode
+  window.cookieconsent.initialise({
+    palette: {
+      popup: {
+        // banner
+        background: '#A7BED3',
+        text: '#320F0C',
+      },
+      button: {
+        // “Accept” button
+        background: '#D56062',
+        text: '#320F0C',
+      },
     },
-    button: {                      // “Accept” button
-      background: "#D56062",
-      text:       "#320F0C"
-    }
-  },
-  position: "bottom",              // banner at bottom
-  type: "opt-in",                  // require explicit consent
-  content: {
-    message: "This website uses cookies for analytics.",  
-    allow: "Accept",               // text on accept button
-    deny: "Decline",               // text on decline button
-    link: "Learn more",
-    href: "/privacy-policy/"       // link to your Privacy/Cookie Policy page
-  },
-  onInitialise: function(status) {
-    if (this.hasConsented()) {
-      // User already consented on a previous visit – enable Analytics
-      loadGAonConsent();
-    }
-  },
-  onStatusChange: function(status, chosenBefore) {
-    if (this.hasConsented()) {
-      // User just consented by clicking "Accept" – load Analytics now
-      loadGAonConsent();
-    } 
-    // (If "Decline", do nothing – GA remains disabled)
-  },
-  // Optionally, you can enable a revoke button to allow changing consent later:
-  // revokable: true,
-  // revokeBtn: '<div class="cc-revoke">Change cookie settings</div>',
-});
+    position: 'bottom', // banner at bottom
+    type: 'opt-in', // require explicit consent
+    content: {
+      message: 'This website uses cookies for analytics.',
+      allow: 'Accept', // text on accept button
+      deny: 'Decline', // text on decline button
+      link: 'Learn more',
+      href: '/privacy-policy/', // link to your Privacy/Cookie Policy page
+    },
+    onInitialise: function (status) {
+      if (this.hasConsented()) {
+        // User already consented on a previous visit – enable Analytics
+        loadGAonConsent();
+      }
+    },
+    onStatusChange: function (status, chosenBefore) {
+      if (this.hasConsented()) {
+        // User just consented by clicking "Accept" – load Analytics now
+        loadGAonConsent();
+      }
+      // (If "Decline", do nothing – GA remains disabled)
+    },
+    // Optionally, you can enable a revoke button to allow changing consent later:
+    // revokable: true,
+    // revokeBtn: '<div class="cc-revoke">Change cookie settings</div>',
+  });
 </script> </body> </html>
