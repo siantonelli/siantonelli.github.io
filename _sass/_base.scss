@@ -3,7 +3,7 @@
  ******************************************************************************/
 
 // Font family
-$base-font-family: 'PT Sans', sans-serif;
+$base-font-family: "PT Sans", sans-serif;
 
 body {
   font-family: $base-font-family;
@@ -29,7 +29,7 @@ strong {
 // Ensure real bold weight for strong/b
 strong,
 b {
-  font-weight: 700;   // or "bold"
+  font-weight: 700; // or "bold"
 }
 
 hr {
@@ -291,7 +291,6 @@ article h2 {
     background-color: var(--global-theme-color);
     text-decoration: none;
   }
-
 }
 
 // Navbar customization
@@ -352,7 +351,7 @@ article h2 {
     background-color: var(--global-theme-color);
     font-weight: bolder;
     color: var(--global-hover-color);
-    border-radius: 0.5rem;       
+    border-radius: 0.5rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 
     &:hover {
@@ -459,7 +458,6 @@ article h2 {
   text-align: center;
 
   .contact-icons {
-
     a {
       img {
       }
@@ -1442,21 +1440,21 @@ figure.cover {
   }
 
   figcaption.interested {
-     font-family: $base-font-family;
+    font-family: $base-font-family;
     color: #23212d;
     text-transform: uppercase;
     background-color: #7691db;
   }
 
   figcaption.paused {
-     font-family: $base-font-family;
+    font-family: $base-font-family;
     color: #23212d;
     text-transform: uppercase;
     background-color: #bdac7e;
   }
 
   figcaption.queued {
-     font-family: $base-font-family;
+    font-family: $base-font-family;
     color: #23212d;
     text-transform: uppercase;
     background-color: #9e76b5;
@@ -1464,7 +1462,7 @@ figure.cover {
 
   figcaption.reading,
   figcaption.watching {
-     font-family: $base-font-family;
+    font-family: $base-font-family;
     color: #23212d;
     text-transform: uppercase;
     background-color: #f89406;
@@ -1472,14 +1470,14 @@ figure.cover {
 
   figcaption.reread,
   figcaption.rewatch {
-     font-family: $base-font-family;
+    font-family: $base-font-family;
     color: #23212d;
     text-transform: uppercase;
     background-color: #a6517d;
   }
 
   figcaption.uncategorized {
-     font-family: $base-font-family;
+    font-family: $base-font-family;
     color: #23212d;
     text-transform: uppercase;
     background-color: #b0abb3;
@@ -1501,7 +1499,7 @@ figure.cover {
   // same clickable area for all icons
   width: $icon-size;
   height: $icon-size;
-  display: inline-flex;      // centers icon in the square
+  display: inline-flex; // centers icon in the square
   align-items: center;
   justify-content: center;
 }
@@ -1513,8 +1511,8 @@ figure.cover {
 }
 
 .social .contact-icons a i {
-  font-size: $icon-size;   // glyph scales to the same size
-  line-height: 1;          // avoid extra vertical space
+  font-size: $icon-size; // glyph scales to the same size
+  line-height: 1; // avoid extra vertical space
   width: 100%;
   text-align: center;
 }

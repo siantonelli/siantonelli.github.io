@@ -56,8 +56,14 @@
       "startDate": "2023-04-01",
       "endDate": "",
       "summary": "Designed lecture material, homework and in-class sessions for Machine Learning and Advanced ML courses covering topics such as probabilistic inference, generative modelling, robustness and explainability.",
-      "highlights": ["Machine Learning SS 2025", "Advanced Machine Learning WS 2025", "Machine Learning SS 2024", "Advanced Machine Learning WS 2024", "Machine Learning SS 2023",
-        "Guest lecture on Machine Learning libraries (~50 attendees) in Machine Learning SS2024 and SS2025"]
+      "highlights": [
+        "Machine Learning SS 2025",
+        "Advanced Machine Learning WS 2025",
+        "Machine Learning SS 2024",
+        "Advanced Machine Learning WS 2024",
+        "Machine Learning SS 2023",
+        "Guest lecture on Machine Learning libraries (~50 attendees) in Machine Learning SS2024 and SS2025"
+      ]
     }
   ],
 
@@ -90,7 +96,7 @@
     }
   ],
 
-   "awards": [
+  "awards": [
     {
       "title": "Best Poster Award",
       "date": "2024-08-01",

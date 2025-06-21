@@ -1,16 +1,16 @@
 # docker-compose.yml  (replace your service section)
 services:
   jekyll:
-    image: amirpourmand/al-folio:v0.14.6   # or build: .
-    platform: linux/arm64/v8               # ← M-series Mac
+    image: amirpourmand/al-folio:v0.14.6 # or build: .
+    platform: linux/arm64/v8 # ← M-series Mac
     ports:
       - "8080:8080"
       - "35729:35729"
     volumes:
-      - .:/srv/jekyll                      # your site
-      - vendor_bundle:/usr/local/bundle    # ← persist the gems
+      - .:/srv/jekyll # your site
+      - vendor_bundle:/usr/local/bundle # ← persist the gems
     environment:
       - JEKYLL_ENV=development
 
 volumes:
-  vendor_bundle:                           # named volume lives outside containers
+  vendor_bundle: # named volume lives outside containers
