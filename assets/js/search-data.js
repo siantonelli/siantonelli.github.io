@@ -96,6 +96,9 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-be-attending-the-mediterranean-machine-learning-m2l-summer-school",
           title: 'I will be attending the Mediterranean Machine Learning (M2L) Summer School 🇭🇷',
           description: "",
+          section: "News",},{id: "news-our-paper-on-node-level-data-valuation-for-graphs-has-been-accepted-at-tmlr",
+          title: 'Our paper on node-level data valuation for graphs has been accepted at TMLR...',
+          description: "",
           section: "News",},{
         id: 'social-github',
         title: 'GitHub',
