@@ -221,6 +221,11 @@ defaults:
 
 sass:
   style: compressed
+  quiet_deps: true      # Suppress deprecation warnings from dependencies  
+  verbose: false        # Reduce verbosity
+  silence_deprecations: # Suppress specific deprecations
+    - import            # Suppress @import deprecation warnings
+    - global-builtin    # Suppress global built-in function warnings
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier

@@ -4,8 +4,8 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - siantonelli/graph_valuation
   - crisostomi/metric-few-shot-graph
   - siantonelli/pointnet-explainability
   - siantonelli/causal-mechanisms-on-pointclouds
-  - siantonelli/nlp-homeworks
   - siantonelli/ModelsTranslator

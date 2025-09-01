@@ -1,7 +1,7 @@
 # docker-compose.yml  (replace your service section)
 services:
   jekyll:
-    image: amirpourmand/al-folio:v0.14.6 # or build: .
+    build: .
     platform: linux/arm64/v8 # ← M-series Mac
     ports:
       - "8080:8080"

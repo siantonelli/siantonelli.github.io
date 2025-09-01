@@ -69,6 +69,12 @@
 
   "publications": [
     {
+      "name": "Node-Level Data Valuation on Graphs",
+      "publisher": "TMLR 2025",
+      "releaseDate": "2025-07-01",
+      "url": "https://openreview.net/forum?id=tNyApIqDSJ"
+    },
+    {
       "name": "Conformal Prediction Sets for Graph Neural Networks",
       "publisher": "ICML 2023",
       "releaseDate": "2023-07-01"
@@ -83,11 +89,6 @@
       "name": "Metric-Based Few-Shot Graph Classification",
       "publisher": "LoG 2022",
       "releaseDate": "2022-12-01"
-    },
-    {
-      "name": "Data Valuation for Graphs",
-      "publisher": "Preprint (under review)",
-      "releaseDate": "2024-05-01"
     },
     {
       "name": "Foundation Models on a Budget: Approximating Blocks in Large Vision Models",
@@ -139,7 +140,6 @@
       "organization": "NeurIPS 2025",
       "position": "Reviewer",
       "startDate": "2025-05-31",
-      // "endDate": "2025-01-01",
       "highlights": []
     },
     {
